@@ -1,0 +1,58 @@
+.new-banner3{
+    display : flex;
+    flex-direction: column;
+    cursor: pointer;
+   
+}
+.main-new-banner3{
+    display : flex;
+    height : 60vh;
+    margin-bottom : 90px;
+    box-shadow: 0 5px 10px #ccc;
+    background: linear-gradient(to bottom, #3498db, #2c3e50);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+.new-mens-banner3{
+    display: flex;
+    flex-direction: column;
+}
+.banner3-h1{
+    font-size: 5rem;
+    color : white;
+    margin-top: -69px;
+    line-height: .9;
+}
+.new-h1{
+    font-size: 5rem;
+    color : white;
+
+}
+.banner3-para{
+    font-size: 1.5rem;
+    color : #818181;
+    color : black;
+    width : 430px;
+    font-weight: 500;
+}
+
+.banner3-img img{
+    width : 400px;
+    height : 59vh;
+}
+.exp-btn{
+    padding : 16px 35px;
+    margin-top : 30px;
+    color : black;
+    font-size: 1.2rem;
+    border : none;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+    color : white;
+    transition: .3s;
+    background-color: #3498db;
+   
+}

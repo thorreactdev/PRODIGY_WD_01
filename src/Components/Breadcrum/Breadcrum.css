@@ -1,0 +1,15 @@
+
+.breadcrum {
+    
+    display: flex;
+    align-items: center;
+    margin : 40px 130px;
+    font-size: 19px;
+    color : #3d3d3d;
+    cursor: pointer;
+    font-weight: 400;
+}
+.breadcrum i{
+    font-size: 24px;
+    text-align: center;
+}

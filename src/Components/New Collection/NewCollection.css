@@ -1,0 +1,27 @@
+.newcollection{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom : 100px;
+}
+.newcollection h1{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+.newcollection hr{
+    width : 450px;
+    height : 2px;
+    margin-bottom: 60px;
+    background-color: #ccc;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+}
+
+.new-collection-cloths{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap : 70px;
+
+}

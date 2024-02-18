@@ -1,0 +1,19 @@
+
+.shop-category{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.shop-category-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 70px; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom : 50px;
+}
+.slick-dots
+{ 
+    top : 530px;
+}

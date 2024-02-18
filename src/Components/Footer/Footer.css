@@ -1,0 +1,99 @@
+.footer{
+    height : 66vh;
+    background-color: #000;
+    color : white;
+    overflow-x: hidden;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footercontent{
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+ul a{
+    display: block;
+    cursor: pointer;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+
+.hr{
+    margin-top: 50px;
+    border : .2px solid grey;
+}
+.footer-logo{
+    margin-top : 40px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+.language p{
+    border : 1px solid grey;
+    margin-left: 70px;
+    padding : 9px 30px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.language p i{
+    font-size: 14px;
+    padding-left: 30px;  
+}
+.social-icon{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap : 30px;
+    margin-top: 40px;
+}
+.social-icon i{
+    width : 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color : black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: .2s ease-in-out;
+}
+.social-icon i:hover{
+    transform: translateY(-4px);
+}
+.bactotopbtn{
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.bactotopbtn span i{
+    width : 45px;
+    height : 45px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    background-color: white;
+    color : black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.bactotopbtn span i:hover{
+    transform: translateY(-4px);
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 69px;
+    margin-top : 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}

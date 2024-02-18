@@ -1,0 +1,56 @@
+.UserSidebar{
+
+
+}
+.main-sidebar-conatiner{
+    padding : 15px 20px;
+    width : 250px;
+    height : 80vh;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 8px;
+}
+.wrap-content{
+    display : flex;
+    flex-direction: column;
+    gap : 30px;
+    margin-top : 20px;
+    cursor: pointer;
+
+}
+
+.Accountsetting{
+    display : flex;
+    align-items: center;
+    gap : 25px;
+    
+}
+
+.MyOrder1{
+    display : flex;
+    align-items: center;
+    gap : 25px;
+}
+.Address-div{
+    display : flex;
+    align-items: center;
+    gap : 25px;
+}
+.notice-wala-div{
+    display : flex;
+    align-items: center;
+    gap : 25px;
+}
+.user-icon-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 40px;
+    height : 40px;
+    border-radius: 50%;
+    border : 1px solid #ccc;
+    color : #0000007c;
+    cursor: pointer;
+}
+.user-icon-span i{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,43 @@
+.main-banner{
+    cursor: pointer;
+}
+
+.main-banner img{
+    width : 100%;
+    height : 55vh;
+    position: relative;
+}
+.time-showing{
+    position: absolute;
+    color : red;
+    left : 17.9%;
+    top : 69%;
+    margin-top : -20px;
+}
+#countdown{
+    font-size: 2.5rem;
+}
+.expin-btn{
+    padding-bottom: 10px;
+}
+.time-showing{
+    display: flex;
+    gap : 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.days-value{
+    font-size: 2rem;
+}
+.hour-value{
+    font-size: 2rem;
+}
+.minute-value{
+    font-size: 2rem;
+}
+.seconds-value{
+    font-size: 2rem;
+}

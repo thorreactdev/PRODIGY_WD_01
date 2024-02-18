@@ -1,0 +1,167 @@
+.main-div{
+    position: fixed;
+    left : 50%;
+    z-index: 100;
+   
+}
+    
+
+.Main-Modal{
+    position: relative; 
+    transition: 2s ease-in-out;
+    filter: blur(100%);
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha (fourth value) for transparency */
+  backdrop-filter: blur(10px);
+  
+}
+.Modal{
+    position: absolute;
+    top : 50%; 
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding-top : 790px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 790px;
+   
+  }
+    
+.outer-layer{
+    position: relative;
+ 
+}
+.cross-moadal-icon{
+    position: absolute;
+    left :87.9%;
+    top : 16px;
+ 
+}
+.modal-cross-icon{
+    border-radius: 0;
+    background: none;
+    border : none;
+    width: 50px;
+    height : 50px;
+    border-radius: 50%;
+    background-color: #eaeaea;
+    /* background-color: red; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  
+}
+.modal-cross-icon:hover{
+    background-color: lightgray;
+}
+
+.outer-layer{
+    width : 700px;
+    height : 450px;
+    /* background-color: rgb(207, 130, 238); */
+    background-color: black;
+    color : white;
+    padding : 0px 30px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.modal-content h1{
+    font-size: 2.8rem;
+    margin-top: 30px;
+}
+.modal-content p{
+    text-align: center;
+    width : 460px;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.modal-input{
+    width : 80%;
+}
+.input-box1{
+    width : 100%;
+    height : 55px;
+    padding : 0px 20px;
+    border-radius: 5px;
+    border : none;
+    outline: none;
+    font-size: 17px;
+}
+.input-box1::placeholder{
+    color : black;
+    font-size: 1.05rem;
+}
+.just-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top : 20px;
+
+}
+.just-shop-btn{
+    padding : 20px 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    /* background-color: rgba(225, 19, 122, 0.548); */
+    background-color: #ff4b2b;
+    color : white;
+    cursor: pointer;
+}
+
+.hideModal{
+    z-index:-1;
+    opacity:0;
+    animation: hide .25s;
+}
+.showModal{
+    opacity:1;
+    z-index:2;
+    animation: show .2s;
+}
+@keyframes hide {
+    from{
+        z-index:2;
+        transform: scale(1);
+        opacity:1;
+    }
+    to{
+        z-index:-1;
+        transform: scale(0);
+        opacity: 0;
+    }  
+}
+
+@keyframes show {
+    from{
+        transform: scale(0);
+    opacity:0;
+      z-index:-1;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+        z-index:2;
+    }
+    
+}

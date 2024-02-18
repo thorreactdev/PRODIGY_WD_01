@@ -1,0 +1,114 @@
+.MyOrder2{
+    padding : 50px 10%;
+    display : flex;
+    height : 200%;
+    flex-direction: column;
+    gap : 35px;
+}
+.your-order-text{
+    padding : 0px 10%;
+    padding-top: 50px;
+    font-size: 2.8rem;
+}
+.line-wala-div{
+    height : 2px;
+    padding : 0px 10%;
+    background-color : #fdd835;
+    margin-left: 10%;
+    width :10px;
+   
+}
+.myorder-content{
+    display : flex;
+    gap : 30px;
+    border : .1px solid #000;
+    width : 100%;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.order-images img{
+    width : 200px;
+   
+}
+.product-content{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap : 13px;
+    justify-content: center;
+}
+.order-prices{
+    display : flex;
+    gap : 20px;
+}
+.delivery-wala-div{
+    display: flex;
+    align-items: center;
+    gap : 6px;
+    
+}
+.order-info-btn{
+    width : 230px;
+    font-size: 1.05rem;
+    border : none;
+    outline: none;
+    background-color: #f2f2f2;
+    padding : 8px 10px;
+    border : 1px solid #42a2a2;
+    background-color: transparent;
+    margin-top: 5px;
+    cursor: pointer;
+    float: right;
+}
+.empty-product-wala-div{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height : 70vh;
+    gap : 10px;
+}
+.empty-product-wala-div img{
+    width : 270px;
+}
+.empty-product-wala-div p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.start-shop-btn{
+    padding : 18px 30px;
+    font-size: 1.05rem;
+    border : none;
+    outline: none;
+    background-color: #ff4b2b;
+    color : white;
+    margin-top : 10px;
+    cursor: pointer;
+}
+.back-to-my-account{
+    display: flex;
+    align-items: center;
+    gap : 6px;
+    padding : 0px 10%;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.back-to-my-account span i{
+    font-size: 1.5rem;
+}
+.back-to-my-account p{
+    font-size: 18.5px;
+    margin-top: -6px;
+    color : #42a2a2;    
+}
+.related-product-buy-more h1{
+    font-size: 2.5rem;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.related-product-buy-more{
+    margin-bottom: 130px;
+   
+}

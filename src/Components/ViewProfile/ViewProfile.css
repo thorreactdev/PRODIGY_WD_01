@@ -1,0 +1,230 @@
+.ViewProfile{
+    height : 130vh;
+    padding : 20px 20px;
+    display: flex;
+    gap : 30px;
+}
+.viewprofile-right-side{
+    width : 100%;
+}
+
+.user-dashboard-text{
+    box-shadow: 0px 0px 10px 0px #ccc;
+    height : 10vh;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0px 15px;
+    border-radius: 10px;
+    background-color: #8062D6;
+    color : white;
+    text-transform: uppercase;
+}
+.user-dashboard-text h2{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.profile-image-div{
+    width : 60px;
+    height : 60px;
+    border : 1px solid #0000007c;
+    border-radius: 50%;
+    margin-right: 20px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profile-image-div img{
+    width : 55px;
+    object-fit: contain;
+    
+}
+.main-box-content{
+    box-shadow: 0px 0px 10px 0px #ccc;
+    height : 33vh;
+    margin-top : 20px;
+    padding : 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+.h4-wala-text{
+    margin-bottom: 30px;
+}
+.personal-info-box{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    justify-content: center;
+    padding : 0px 20px;
+    height : 20vh;
+    width : 250px;
+    /* box-shadow: 0px 0px 10px 0px #ccc; */
+    border-radius: 8px;
+    cursor: pointer;
+    /* background-color: #ff4b2b95; */
+    background-color: #FB8B24;
+    color : white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+.personal-info-box1{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    justify-content: center;
+    /* border : 1px solid red; */
+    padding : 0px 20px;
+    height : 20vh;
+    width : 250px;
+    /* box-shadow: 0px 0px 10px 0px #ccc; */
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #E26EE5;
+    color : white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.personal-info-box2{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    justify-content: center;
+    /* border : 1px solid red; */
+    padding : 0px 20px;
+    height : 20vh;
+    width : 250px;
+    /* box-shadow: 0px 0px 10px 0px #ccc; */
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #EF4040;
+    color : white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.personal-info-box3{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    justify-content: center;
+    /* border : 1px solid red; */
+    padding : 0px 20px;
+    height : 20vh;
+    width : 250px;
+    /* box-shadow: 0px 0px 10px 0px #ccc; */
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #279EFF;
+    color : white;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+
+}
+.user-icon-span-new{
+    width : 50px;
+    height: 50px;
+    border : 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.user-icon-span-new i{
+    font-size: 1.4rem;
+}
+
+
+.recent-order-wala-div{
+    margin-top: 30px;
+}
+.recent-order-wala-div h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.content-content{
+    display : flex;
+    flex-direction: column;
+    gap : 30px;
+
+}
+.order-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border : 1px solid #ddd;
+    height : 7vh;
+    padding : 0px 20px;
+    border-radius: 5px;
+}
+.no-recent-orders-wala-div{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap : 20px;
+    height : 40vh;
+}
+.no-recent-orders-wala-div img{
+    width : 300px;
+}
+.no-recent-orders-wala-div p{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+
+
+
+/* .recent-order-wala-div{
+    margin-top: 30px;
+}
+.recent-order-wala-div h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.recent-order-content{
+   
+
+
+}
+.upper-content{
+    display : flex;
+    justify-content: space-between;
+    background-color: #000;
+    color : white;
+    height : 50px;
+    align-items: center;
+    padding : 0px 20px;
+}
+.content-content{
+    display : flex;
+    flex-direction: column;
+}
+
+.order-information{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 10px 50px;
+}
+
+.one-more-data{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 10px 50px;
+
+} */
